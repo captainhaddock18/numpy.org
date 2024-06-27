@@ -1,9 +1,43 @@
 ---
 title: News
 sidebar: false
-newsHeader: "NumPy 1.26.0 released"
-date: 2023-09-16
+newsHeader: "NumPy 2.0 released!"
+date: 2024-06-17
 ---
+
+### NumPy 2.0.0 released
+
+_16 Jun, 2024_ -- NumPy 2.0.0 is the first major release since 2006. It is the
+result of 11 months of development since the last feature release and is the
+work of 212 contributors spread over 1078 pull requests. It contains a large
+number of exciting new features as well as changes to both the Python and C
+APIs.  It includes breaking changes that could not happen in a regular minor
+release - including an ABI break, changes to type promotion rules, and API
+changes which may not have been emitting deprecation warnings in 1.26.x. Key
+documents related to how to adapt to changes in NumPy 2.0 include:
+
+- The [NumPy 2.0 migration guide](https://numpy.org/devdocs/numpy_2_0_migration_guide.html)
+- The [2.0.0 release notes](https://numpy.org/devdocs/release/2.0.0-notes.html)
+- Announcement issue for status updates: [numpy#24300](https://github.com/numpy/numpy/issues/24300)
+
+The blog post ["NumPy 2.0: an evolutionary milestone"](https://blog.scientific-python.org/numpy/numpy2/)
+tells a bit of the story about how this release came together.
+
+
+### NumPy 2.0 release date: June 16
+
+_23 May, 2024_ -- We are excited to announce that NumPy 2.0 is planned to be
+released on June 16, 2024. This release has been over a year in the making, and
+is the first major release since 2006. Importantly, in addition to many new
+features and performance improvement, it contains **breaking changes** to the
+ABI as well as the Python and C APIs. It is likely that downstream packages and
+end user code needs to be adapted - if you can, please verify whether your code
+works with NumPy `2.0.0rc2`. **Please see the following for more details:**
+
+- The [NumPy 2.0 migration guide](https://numpy.org/devdocs/numpy_2_0_migration_guide.html)
+- The [2.0.0 release notes](https://numpy.org/devdocs/release/2.0.0-notes.html)
+- Announcement issue for status updates: [numpy#24300](https://github.com/numpy/numpy/issues/24300)
+
 
 ### NumFOCUS end of the year fundraiser
 _Dec 19, 2023_ -- NumFOCUS has teamed up with PyCharm during their EOY campaign to offer a 30% discount 
@@ -377,6 +411,7 @@ Here is a list of NumPy releases, with links to release notes. Bugfix
 releases (only the `z` changes in the `x.y.z` version number) have no new
 features; minor releases (the `y` increases) do.
 
+- NumPy 2.0.0 ([release notes](https://github.com/numpy/numpy/releases/tag/v2.0.0)) -- _16 Jun 2024_.
 - NumPy 1.26.4 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.26.4)) -- _5 Feb 2024_.
 - NumPy 1.26.3 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.26.3)) -- _2 Jan 2024_.
 - NumPy 1.26.2 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.26.2)) -- _12 Nov 2023_.
